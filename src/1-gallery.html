@@ -7,34 +7,27 @@
     <title>Page 2</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
-    />
 
+  <body>
     <main>
       <div class="container">
         <h1 class="main-title">
           <span class="main-title-gradient">Welcome</span> to page 2
         </h1>
-        <load src="./partials/back-link.html" />
       </div>
+
+      <ul class="gallery">
+        <li class="gallery-item">
+          <a class="gallery-link" href="large-image.jpg">
+            <img
+              class="gallery-image"
+              src="small-image.jpg"
+              data-source="large-image.jpg"
+              alt="Image description"
+            />
+          </a>
+        </li>
+      </ul>
     </main>
-    
- <ul class="gallery">
-      <li class="gallery-item">
-  <a class="gallery-link" href="large-image.jpg">
-    <img
-      class="gallery-image"
-      src="small-image.jpg"
-      data-source="large-image.jpg"
-      alt="Image description"
-    />
-  </a>
-</li>
-    </ul>
-    <load src="./partials/footer.html" />
   </body>
 </html>
